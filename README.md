@@ -18,7 +18,7 @@ that helps users understand color palettes, skin tones, and outfit combinations.
 - JavaScript (Vanilla)
 
 ## 🚀 Live Demo
-🔗 *(Add GitHub Pages link here)*
+🔗 Live demo will be added soon
 
 ## 🤝 Contributing
 Contributions are welcome!
