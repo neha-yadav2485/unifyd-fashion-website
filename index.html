@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>UNIFYD | One Vibe. Every Fit.</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="nav-left">
+      <div class="hamburger" onclick="menuClick()">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+      <div class="call-us" onclick="callUs()">Call Us</div>
+    </div>
+
+    <div class="brand" onclick="goHome()">UNIFYD</div>
+
+    <div class="nav-right">
+      <i class="fa-solid fa-magnifying-glass" onclick="searchClick()"></i>
+      <i class="fa-regular fa-user" onclick="profileClick()"></i>
+      <i class="fa-solid fa-bag-shopping" onclick="cartClick()"></i>
+    </div>
+  </nav>
+
+  <!-- SIDE MENU -->
+<div class="side-menu" id="sideMenu" onclick="event.stopPropagation()">
+  <ul>
+    <li onclick="goTo('Women')">Women</li>
+    <li onclick="goTo('Men')">Men</li>
+    <li onclick="goTo('Unisex')">Unisex</li>
+    <li onclick="goTo('Style Guide')">Style Guide</li>
+  </ul>
+</div>
+
+  <!-- HERO SECTION -->
+  <section class="hero">
+    <div class="hero-content">
+    <!--<img src="https://i.pinimg.com/1200x/40/ed/72/40ed72f2387ee9cb0a231a0e80f038f6.jpg" alt="model image"> -->
+
+      <h1>HOLIDAY COLLECTION</h1>
+      <div class="hero-options">
+        <span onclick="forHer()">FOR HER</span>
+        <span onclick="forHim()">FOR HIM</span>
+      </div>
+    </div>
+  </section>
+
+  <!--2ND PAGE -->
+<!-- COLLECTIONS SECTION -->
+<section class="collections">
+  <h2>SHOP BY COLLECTION</h2>
+
+  <div class="collection-grid">
+    
+    <!-- WOMEN -->
+    <div class="collection-card" onclick="goTo('Women')">
+      <img src="https://i.pinimg.com/1200x/f8/a7/b6/f8a7b6698c80b50f546fd61c5b997138.jpg" alt="Women Collection">
+      <div class="overlay">WOMEN</div>
+    </div>
+
+    <!-- MEN -->
+    <div class="collection-card" onclick="goTo('Men')">
+      <img src="https://i.pinimg.com/736x/a0/4c/e6/a04ce665c79042238b0b425067b6d336.jpg" alt="Men Collection">
+      <div class="overlay">MEN</div>
+    </div>
+
+    <!-- UNISEX -->
+    <div class="collection-card" onclick="goTo('Unisex')">
+      <img src="https://i.pinimg.com/1200x/8a/1d/0c/8a1d0c6e55382adc27fa04540651b811.jpg" alt="Unisex Collection">
+      <div class="overlay">UNISEX</div>
+    </div>
+
+  </div>
+</section>
+
+<!--3rd page-->
+<!-- STYLE GUIDE SECTION -->
+<section class="style-guide">
+  <div class="style-guide-content">
+
+    <div class="style-image">
+      <img src="https://i.pinimg.com/736x/35/60/fb/3560fb5aa0b1a6810a1b01390c6f72af.jpg" alt="Style Guide">
+    </div>
+
+    <div class="style-text">
+      <h2>STYLE GUIDE</h2>
+      <p>
+        Discover how to style UNIFYD pieces your way.  
+        From streetwear essentials to elevated holiday looks —  
+        this is where fashion meets individuality.
+      </p>
+      <button onclick="goTo('Style Guide')">EXPLORE STYLE GUIDE</button>
+    </div>
+
+  </div>
+</section>
+
+<!--last page -->
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="footer-container">
+
+    <!-- Brand -->
+    <div class="footer-brand">
+      <h3>UNIFYD</h3>
+      <p>One Vibe. Every Fit.</p>
+    </div>
+
+    <!-- Links -->
+    <div class="footer-links">
+      <h4>SHOP</h4>
+      <ul>
+        <li><a href="#">Women</a></li>
+        <li><a href="#">Men</a></li>
+        <li><a href="#">Unisex</a></li>
+        <li><a href="#">Style Guide</a></li>
+      </ul>
+    </div>
+
+    <!-- Support -->
+    <div class="footer-links">
+      <h4>HELP</h4>
+      <ul>
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="#">Shipping & Returns</a></li>
+        <li><a href="#">Size Guide</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+      </ul>
+    </div>
+
+    <!-- Social -->
+    <div class="footer-social">
+      <h4>FOLLOW US</h4>
+      <div class="social-icons">
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-x-twitter"></i>
+        <i class="fa-brands fa-facebook-f"></i>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    © 2025 UNIFYD. All Rights Reserved.
+  </div>
+</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
