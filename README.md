@@ -35,5 +35,10 @@ You can help by:
 3. Make your changes
 4. Submit a Pull Request
 
+## 🔒 Code Access
+This repository is publicly viewable.  
+Contributions are welcome via forks and pull requests.
+
+
 ## 📌 Note
 This is a frontend-only project. Backend integration can be added in the future.
