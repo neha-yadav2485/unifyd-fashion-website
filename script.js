@@ -1,14 +1,9 @@
-/* ===============================
-   GLOBAL ELEMENTS
-================================ */
+/* GLOBAL ELEMENTS */
 const sideMenu = document.getElementById("sideMenu");
 const menuBtn = document.querySelector(".hamburger");
 const body = document.body;
 
-
-/* ===============================
-   MENU TOGGLE
-================================ */
+/* MENU TOGGLE */
 function menuClick() {
   sideMenu.classList.toggle("active");
 }
@@ -24,10 +19,7 @@ document.addEventListener("click", (e) => {
   }
 });
 
-
-/* ===============================
-   NAVIGATION HANDLERS
-================================ */
+/* NAVIGATION HANDLERS */
 function goHome() {
   window.scrollTo({
     top: 0,
@@ -63,10 +55,7 @@ function goTo(section) {
   sideMenu.classList.remove("active");
 }
 
-
-/* ===============================
-   SMOOTH SCROLL FUNCTION
-================================ */
+/* SMOOTH SCROLL FUNCTION */
 function scrollToSection(selector) {
   const section = document.querySelector(selector);
   if (!section) return;
@@ -76,10 +65,7 @@ function scrollToSection(selector) {
   });
 }
 
-
-/* ===============================
-   ICON ACTIONS
-================================ */
+/* ICON ACTIONS */
 function searchClick() {
   console.log("Search clicked");
 }
@@ -96,10 +82,7 @@ function callUs() {
   window.location.href = "tel:+911234567890"; // replace with real number
 }
 
-
-/* ===============================
-   HERO BUTTONS
-================================ */
+/* HERO BUTTONS */
 function forHer() {
   goTo("Women");
 }
@@ -108,10 +91,7 @@ function forHim() {
   goTo("Men");
 }
 
-
-/* ===============================
-   OPTIONAL: STICKY NAV ON SCROLL
-================================ */
+/* OPTIONAL: STICKY NAV ON SCROLL */
 window.addEventListener("scroll", () => {
   const navbar = document.querySelector(".navbar");
 
