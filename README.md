@@ -18,7 +18,7 @@ that helps users understand color palettes, skin tones, and outfit combinations.
 - JavaScript (Vanilla)
 
 ## 🚀 Live Demo
-🔗  https://neha-yadav2485.github.io/unifyd-fashion-website/
+🔗  https://neha-yadav2485.github.io/unifyd-fashion-website/index.html
 
 ## 🤝 Contributing
 Contributions are welcome!
